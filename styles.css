@@ -1,0 +1,34 @@
+body {
+    transition: background-color 5s;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    font-family: Monospace;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 3px 3px 15px white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px white;
+}
+
+div {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
